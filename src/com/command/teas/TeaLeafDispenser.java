@@ -1,6 +1,6 @@
 package com.command.teas;
 
-public class TeaLeafDispenser extends TestElectricKettle {
+public class TeaLeafDispenser {
 	String amount;
 	
 	public TeaLeafDispenser() {
