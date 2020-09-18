@@ -2,7 +2,7 @@
 
 This is a tea control system that demonstrates the Command Pattern.
 
-## Factory Method Definition
+## Command Pattern Definition
 
 > **The Command Pattern** encapsulates a request as an object, thereby letting
 > you parameterize the other objects with different requests, queue, or log
