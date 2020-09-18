@@ -18,12 +18,12 @@ class TeaLeafDispenserTest extends TeaLeafDispenser {
 	void testSetAmounts() {
 		// Test dispensing for a tea pot
 		System.out.println("\n--- Test dispensing for a tea pot");
-		dispenser.setForOnePot();
+		dispenser.dispenseForOnePot();
 		assertEquals("4 teaspoons", dispenser.amount);
 		
 		// Test dispensing for a tea pot
 		System.out.println("\n--- Test dispensing for one cup");
-		dispenser.setForOneCup();
+		dispenser.dispenseForOneCup();
 		assertEquals("1 teaspoon", dispenser.amount);
 
 	}

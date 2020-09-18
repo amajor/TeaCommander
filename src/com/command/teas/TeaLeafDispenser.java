@@ -7,11 +7,11 @@ public class TeaLeafDispenser {
 		amount = "1 teaspoon";
 	}
 	
-	public void setForOneCup() {
+	public void dispenseForOneCup() {
 		amount = "1 teaspoon";
 	}
 	
-	public void setForOnePot() {
+	public void dispenseForOnePot() {
 		amount = "4 teaspoons";
 	}
 }
