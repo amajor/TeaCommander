@@ -8,6 +8,8 @@ public class TeaLeafDispenseForOneCommand implements Command {
 	}
 	
 	public void execute() {
+		System.out.println("Choosing black tea.");
+		dispenser.chooseBlackTea();
 		System.out.println("Dispensing tea for 1 cup.");
 		dispenser.dispenseForOneCup();
 	}

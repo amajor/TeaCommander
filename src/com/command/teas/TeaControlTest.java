@@ -29,8 +29,10 @@ class TeaControlTest extends TeaControl {
 		// Make tea for me!
 		control.onButtonWasPushed(0);
 		assertEquals(kettle.on, true);
+		assertEquals(kettle.temperature, 212);
 		
 		control.onButtonWasPushed(1);
+		assertEquals(dispenser.type, "English Breakfast");
 		assertEquals(dispenser.amount, "1 teaspoon");
 		
 		control.offButtonWasPushed(0);
